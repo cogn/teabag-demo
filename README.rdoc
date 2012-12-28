@@ -1,0 +1,23 @@
+== teabag 
+
+
+Teabag is a Javascript test runner built on top of Rails. It can run tests in the browser, or headlessly using PhantomJS (default) or Selenium WebDriver.
+
+
+== Installation and Configuration
+
+
+> through command line 
+
+
+  gem install teabag
+  gem install phantomjs-linux
+
+
+or add a following line into Gemfile and execute bundle install command
+
+
+  group :assets do
+    gem "teabag"
+  end
+
